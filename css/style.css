@@ -1,0 +1,389 @@
+/* pt-sans-narrow-regular - latin_cyrillic */
+@font-face {
+	font-family: 'PT Sans Narrow';
+	font-style: normal;
+	font-weight: 400;
+	src: url('../fonts/pt-sans-narrow-v12-latin_cyrillic-regular.eot'); /* IE9 Compat Modes */
+	src: local(''),
+		  url('../fonts/pt-sans-narrow-v12-latin_cyrillic-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+		  url('../fonts/pt-sans-narrow-v12-latin_cyrillic-regular.woff2') format('woff2'), /* Super Modern Browsers */
+		  url('../fonts/pt-sans-narrow-v12-latin_cyrillic-regular.woff') format('woff'), /* Modern Browsers */
+		  url('../fonts/pt-sans-narrow-v12-latin_cyrillic-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+		  url('../fonts/pt-sans-narrow-v12-latin_cyrillic-regular.svg#PTSansNarrow') format('svg'); /* Legacy iOS */
+ }
+ /* pt-sans-narrow-700 - latin_cyrillic */
+ @font-face {
+	font-family: 'PT Sans Narrow';
+	font-style: normal;
+	font-weight: 700;
+	src: url('../fonts/pt-sans-narrow-v12-latin_cyrillic-700.eot'); /* IE9 Compat Modes */
+	src: local(''),
+		  url('../fonts/pt-sans-narrow-v12-latin_cyrillic-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+		  url('../fonts/pt-sans-narrow-v12-latin_cyrillic-700.woff2') format('woff2'), /* Super Modern Browsers */
+		  url('../fonts/pt-sans-narrow-v12-latin_cyrillic-700.woff') format('woff'), /* Modern Browsers */
+		  url('../fonts/pt-sans-narrow-v12-latin_cyrillic-700.ttf') format('truetype'), /* Safari, Android, iOS */
+		  url('../fonts/pt-sans-narrow-v12-latin_cyrillic-700.svg#PTSansNarrow') format('svg'); /* Legacy iOS */
+ }
+
+body {
+	font-family:'PT Sans Narrow';
+}
+
+.topline {
+	background-color: #f8f8f8;
+	height: 33px;
+}
+
+.wrapper {
+	max-width: 1200px;
+	margin: 0 auto;
+	min-height: 100%;
+}
+
+
+.menu ul li a {
+	text-transform: uppercase;
+	font-size: 17px;
+	padding-right: 33px;
+	color: #58585a;
+	font-weight: 500;
+	margin-top: 9px;
+	float: left;
+}
+
+.active {
+	color: #d71414!important;
+	padding: 0!important;
+}
+
+.percents {
+	display: inline-block;
+	padding: 3px 0 0 10px; 
+}
+
+.search {
+	width: 294px;
+	height: 27px;
+	border: 1px solid #bfbfbf;
+	background-color: #fff;
+	float: right;
+	margin-top: 2px;
+	position: relative;
+	
+	margin-right: 10px;
+}
+
+.search img{
+	display: inline-block;
+	position: absolute;
+	padding: 3px;
+}
+
+.search input {
+	color: #000;
+	text-transform: uppercase;
+	width: 254px;
+	height: 20px;
+	position: absolute;
+	margin-left: 37px;
+}
+
+.contacts {
+	display:flex;
+	margin: 11px 0 16px 0;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.logo {
+	padding-right: 117px;
+}
+.text {
+	font-size: 15px;
+	color: #111111;
+}
+
+.numbers1 {
+	padding-right: 21px;
+}
+
+.numbers2 {
+	padding-right: 100px;
+}
+
+.numbers2 p span {
+	color: #149ad7;
+}
+
+.numbers1, 
+.numbers2 {
+	color: #3d3d3d;
+	text-transform: uppercase;
+	font-size: 19px;
+	font-weight: 600;
+}
+
+.bcall, 
+.basket  {
+	display: flex;
+	align-items: center;
+	font-size: 24px;
+	color: #3d3d3d;
+	border-bottom: 3px solid #fcb30c;
+	height: 40px;
+	width: 200px;
+}
+
+.bcall {
+	width: 240px;
+	margin-right: 36px;
+}
+
+.bcall img, 
+.basket img{
+	height: 44px;
+	width: 44px;
+	margin: -22px;
+}
+
+.bcall p {
+	margin-left: 45px;
+}
+
+.basket p {
+	margin-left: 39px;
+}
+ 
+.nav {
+	overflow: hidden;
+	margin-bottom: 26px;
+}
+
+.nav a {
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 24px;
+}
+
+.nav a:hover {
+	color: #ffffff;
+}
+
+.block1,
+.block2,
+.block3,
+.block4 {
+	position: relative;
+	float: left;
+	margin-right: 1px;
+	width: 299px;
+	height: 54px;
+	background-color: #fcb30c;
+}
+
+.block2 {
+	background-color: #149ad7;
+}
+
+.block3 {
+	background-color: #d71414;
+}
+
+.block4 {
+	margin-right: 0;
+	background-color: #00ab4e;
+}
+
+.block1 p, 
+.block2 p, 
+.block3 p, 
+.block4 p {
+	position: absolute;
+	width: 100%;
+	top: 14px;
+	text-align: center;
+}
+
+.block4 p {
+	font-size: 18px;
+	padding-left: 19px;
+}
+
+.block1 img {
+	padding-left: 26px;
+	padding-top: 7px;
+}
+
+.block2 img {
+	padding-left: 23px;
+	padding-top: 7px;
+}
+
+.block3 img {
+	padding-left: 33px;
+	padding-top: 6px;
+}
+
+.block4 img {
+	padding-left: 16px;
+	padding-top: 11px;
+}
+
+.title{
+	text-transform: uppercase;
+	font-size: 28px;
+	height: 33px;
+	text-align: center;
+	line-height: 1.2;
+	display: block;
+}
+
+.title__heating {
+	background: url(../img/s_fair.png) 43% no-repeat;
+	color:#fcb30c;
+}
+
+.content {
+margin-top: 6px;
+margin-bottom: 10px;
+}
+
+.heating {
+	border-top: 3px solid #fcb30c;
+	display: flex;
+	gap: 1px;
+}
+
+.box2, 
+.box3{
+	display: flex;
+	flex-direction: column;
+	gap: 1px;
+}
+
+.boxshadow,
+.boxshadow__top {
+	width: 100%;
+	height: 59px;
+	position: absolute;
+	background-color: rgba(0, 0, 0, 0.5)
+}
+
+.heating__top {
+	top: 117px;
+}
+
+.heating__bottom {
+	bottom: 0;
+}
+
+.box1,
+.box2,
+.box3,
+.holder,
+.inner {
+	position: relative;
+}
+
+ .heading,
+ .heading1 {
+	 position: absolute;
+	 bottom: 0;
+	 color: #fff;
+	 font-size: 28px;
+	 z-index: 1;
+	 text-transform: uppercase;
+	 width: 100%;
+	 height: 59px;
+	 text-align: center;
+	 line-height: 59px;
+}
+
+.heading1 {
+	bottom: 14px;
+}
+
+.category_link {
+	position: absolute;
+	line-height: 62px;
+	right: 93px;
+	top: 70px;
+}
+
+.category_link a {
+	font-size: 18px;
+	color: #000;
+	text-shadow: 0 0 10px #fff;
+}
+
+.water {
+	overflow: hidden;
+}
+
+.water-supply {
+	width: 790px;
+	float: left;
+	position: relative;
+}
+
+.water-heating {
+	width: 399px;
+	float: right;
+}
+
+.title__water-supply {
+	width: 790px;
+	color: #149ad7;
+	background: url(../img/icon_woter.png) 35% no-repeat;
+	margin-bottom: 9px;
+}
+
+.title__water-heating {
+	width: 399px;
+	color: #d71414;
+	background: url(../img/icon_df.png) 25% no-repeat;
+	margin-bottom: 9px;
+}
+
+.wrap1 {
+	overflow: hidden;
+	border-top: 3px solid #149ad7;
+}
+.wrap2 {
+	overflow: hidden;
+	border-top: 3px solid #d71414;
+}
+
+.img__water-supply1 {
+	float: left;
+	width: 457px;
+	position: relative;
+}
+
+.img__water-supply2 {
+	width: 331px;
+	float: right;
+	position: relative;
+}
+
+.img__water-supply2 ul li,
+.img__water-heating ul li {
+	margin-bottom: 2px;
+	position: relative;
+}
+
+.img__water-supply2 ul li:last-child {
+	margin-bottom: 0;
+}
+
+.img__water-heating ul li:last-child {
+	margin-bottom: 0;
+}
+
+.water__top {
+	top: 200px;
+}
+
+.water__bottom {
+	bottom: 0;
+}
