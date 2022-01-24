@@ -383,3 +383,9 @@ margin-bottom: 10px;
 .water__bottom {
 	bottom: 0;
 }
+
+.title__pipe {
+	color: #10a04d;
+	background: url(../img/instrumenti_title_bg.png) 325px 0 no-repeat;
+	margin-top: 15px;
+}
